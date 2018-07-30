@@ -4,7 +4,26 @@ Create a bookmark which works as a gmail template
 
 # Usage
 
-Edit sample.json and execute gmailtemplate.go.
+Edit sample.json.
+
+```
+{
+    "to":["test@example.com"],
+    "bcc":["test@example.com"],
+    "subject": "Subject comes here",
+    "body": [
+        "Hi, ",
+        "",
+        "This is a sample mail to show you how to use a template.",
+        "",
+        "Enjoy!",
+        "",
+        ""
+    ]
+}
+```
+
+Execute gmailtemplate.go.
 
 ```
 $ go run gmailtemplate.go sample.json
