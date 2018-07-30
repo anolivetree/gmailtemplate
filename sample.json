@@ -1,0 +1,14 @@
+{
+    "to":["test@example.com"],
+    "bcc":["test@example.com"],
+    "subject": "Subject comes here",
+    "body": [
+        "Hi, ",
+        "",
+        "This is a sample mail to show you how to use a template.",
+        "",
+        "Enjoy!",
+        "",
+        ""
+    ]
+}
